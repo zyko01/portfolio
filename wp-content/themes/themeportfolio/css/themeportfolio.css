@@ -1,3 +1,6 @@
+body{
+    position: relative;
+}
 .container{
     background-color: #e3e3e3;
 }
@@ -5,5 +8,49 @@
 .row{
     height: 500px;
     border: 1px solid #000000;
-    margin-bottom: 50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+/* Landing page */
+#landingpage{
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+}
+
+/* main navigation */
+.navbar {
+    margin-bottom: 0px;
+}
+nav a{
+    font-size: 16px !important;
+}
+.navbar-inverse{
+    border-radius: 0 !important;
+    padding: 5px 10px;
+    /* background: transparent !important; */
+    border: none !important;
+}
+nav img{
+    width: 75px;
+    height: 60px;
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+ }
+
+ /* footer */
+.site-footer{
+    height: 90px;
+    width: 100%;
+    background-color: #e3e3e3;
+    position: relative;
+    float: left;
+    margin-top: 50px;
 }

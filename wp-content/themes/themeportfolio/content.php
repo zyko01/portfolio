@@ -1,9 +1,11 @@
-<div class="row" id="contact" >
-<a href="#contact"></a>
-    <h1>hello im now in the content</h1>
+<div class="row" id="about" href="#about"> 
+    <h1>hello this is about</h1>
 </div> 
 
-<div class="row" id="about">
-<a href="#about"></a>
-    hello you are this is about row
+<div class="row" id="portfolio" href="#portfolio">
+    <h1>this is portfolio</h1>
+</div>
+
+<div class="row" id="contact" href="#contact">
+    <h1>hello this is contact</h1>
 </div> 

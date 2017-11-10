@@ -6,16 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); ?>
     </head>
-    <body <?php body_class(); ?>>
+    <body <?php body_class(); ?> >
+
+    <div class="row" id="landingpage" href="#">
+  
+    </div>
     
-    <nav class= "navbar navbar-inverse">
+    <nav class= "navbar navbar-inverse" data-spy="affix" data-offset-top="650">
+      <div class="container-fluid">
         <div class= "navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collpase" data-targer="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <p>website title</p>
+            <img src="<?php echo get_bloginfo('template_url') ?> /images/marklogo.png" alt="logo">
         </div>
         <div class="collpase navbar=collapse" id="myNavbar">
             <?php
@@ -25,5 +30,6 @@
                   'menu_class' => 'nav navbar-nav navbar-right'
                 ));
             ?>
+        </div>
         </div>
     </nav>
