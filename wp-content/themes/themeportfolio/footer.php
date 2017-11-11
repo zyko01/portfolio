@@ -9,15 +9,20 @@
                     </div>
 
                     <div class="social-links">
-                        <a class="btn btn-social-icon btn-twitter">
-                            <span class="fa fa-twitter"></span> 
+                        <a class="btn btn-social-icon btn-youtube" href="https://www.youtube.com/channel/UCFjg6jgD3-5b23YgoN3ZKgg?view_as=subscriber">
+                            <span class="fa fa-youtube"></span> 
                         </a>
-
-                        <a class="btn btn-social-icon btn-twitter">
-                            <span class="fa fa-twitter"></span> 
+                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/mark120193/?hl=en">
+                            <span class="fa fa-instagram"></span> 
                         </a>
-                        <a class="btn btn-social-icon btn-twitter">
-                            <span class="fa fa-twitter"></span> 
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/zyko01">
+                            <span class="fa fa-facebook"></span> 
+                        </a>
+                        <a class="btn btn-social-icon btn-google-plus" href="https://plus.google.com/u/0/101190401150324727365">
+                            <span class="fa fa-google-plus"></span> 
+                        </a>
+                        <a class="btn btn-social-icon btn-github" href="https://github.com/zyko01">
+                            <span class="fa fa-github"></span> 
                         </a>
                     </div>  
 

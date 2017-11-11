@@ -65,7 +65,7 @@ nav img{
 }
  /* footer */
 .site-footer{
-    height: 170px;
+    height: 220px;
     width: 100%;
     background-color: #1B242F;
     position: relative;
@@ -111,12 +111,22 @@ i{
 .social-links .btn{
     background-color: #262F38;
     color: #ffffff;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+.social-links .btn:hover{
+    background-color: #c3095f;
+    color: #ffffff;
 }
 .foot-note{
     height: auto;
     width: 100%;
     text-align: center;
     color: #ffffff;
+    padding-top: 20px;
+    float: left;
 }
 .foot-note span{
     color: #c3095f;
