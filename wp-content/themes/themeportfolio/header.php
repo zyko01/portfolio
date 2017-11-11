@@ -9,7 +9,17 @@
     <body <?php body_class(); ?> >
 
     <section class="row" id="landingpage" href="#">
-  
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2">
+                <h1>Hi, im <span>Mark Christian Biglang-awa</span>.</h1>
+                <h1>im a front-end developer.</h1>
+                <a href="#about" class="btn btn-home" id="change-icon">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-arrow-down"></i>
+                        <h4>more about me</h4>
+                </a>
+            </div>
+        </div>
      </section>
     
     <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="600">
