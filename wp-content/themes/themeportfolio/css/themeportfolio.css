@@ -15,7 +15,7 @@ body{
 #landingpage{
     width: 100%;
     margin: 0 auto;
-    height: 600px;
+    height: 620px;
 }
 
 /* main navigation */
@@ -45,6 +45,18 @@ nav img{
     top: 50px;
  }
 
+.active a{
+    color: #c3095f!important;
+    background-color: #222222 !important;
+}
+.active a:after{
+	content: '';
+	border-bottom: 2px solid #c3095f;
+	display: block;
+	width: 100%;
+	position: relative;
+	top: 8px;
+}
  /* footer */
 .site-footer{
     height: 90px;

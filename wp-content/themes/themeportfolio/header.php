@@ -8,28 +8,30 @@
     </head>
     <body <?php body_class(); ?> >
 
-    <div class="row" id="landingpage" href="#">
+    <section class="row" id="landingpage" href="#">
   
-    </div>
+     </section>
     
-    <nav class= "navbar navbar-inverse" data-spy="affix" data-offset-top="650">
-      <div class="container-fluid">
-        <div class= "navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collpase" data-targer="#myNavbar">
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="600">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                <span class="icon-bar"></span>                        
+             </button>
             <img src="<?php echo get_bloginfo('template_url') ?> /images/marklogo.png" alt="logo">
         </div>
-        <div class="collpase navbar=collapse" id="myNavbar">
-            <?php
-                wp_nav_menu(array(
-                  'theme_location' => 'primary',
-                  'container' => false,
-                  'menu_class' => 'nav navbar-nav navbar-right'
-                ));
-            ?>
+        
+        <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">about</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contacts">contacts</a></li>
+                </ul>
+            </div>
         </div>
-        </div>
-    </nav>
+  </div>
+</nav>    
+       
