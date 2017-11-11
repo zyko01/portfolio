@@ -20,7 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
              </button>
-            <img src="<?php echo get_bloginfo('template_url') ?> /images/marklogo.png" alt="logo">
+            <img src="<?php echo get_bloginfo('template_url') ?> /images/logo.png" alt="logo">
         </div>
         
         <div>

@@ -5,7 +5,11 @@ function themeportfolio_resources(){
     wp_enqueue_style('themeportfolio', get_template_directory_uri() . '/css/themeportfolio.css', array(), '1.0.0', 'all' );
     // importing bootstrap css
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.7', 'all' );
-    
+    // importing font awesome
+    wp_enqueue_style('fonts', get_template_directory_uri() . '/fonts/font-awesome.min.css', array(), '4.0.1', 'all');
+    wp_enqueue_style('fonts', get_template_directory_uri() . '/fonts/fontawesome-webfont.ttf', array(), '4.0.1', 'all');
+    wp_enqueue_style('fonts', get_template_directory_uri() . '/fonts/fontawesome-webfont.woff', array(), '4.0.1', 'all');
+    wp_enqueue_style('fonts', get_template_directory_uri() . '/fonts/fontawesome-webfont.woff2', array(), '4.0.1', 'all');    
     // custom js
     wp_enqueue_script('customjs', get_template_directory_uri() . '/js/themeportfolio.js', array(), '1.0.0', true);
     wp_enqueue_script('activejs', get_template_directory_uri() . '/js/active.js', array(), '1.0.0', true);
