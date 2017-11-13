@@ -19,6 +19,7 @@ body{
     padding-top: 150px;
     text-align: center;
     color: #ffffff;
+    border: 0;
 }
 #landingpage span{
     color: #c3095f;
@@ -52,6 +53,7 @@ body{
 #landingpage .btn-home:hover{
     color: #ffffff !important;
     background-color: #04C2C9;
+    border-color: #04C2C9;
 }
 
 /* main navigation */
@@ -152,7 +154,7 @@ i{
     padding-top: 10px;
 }
 .social-links .btn:hover{
-    background-color: #c3095f;
+    background-color: #04C2C9;
     color: #ffffff;
 }
 .foot-note{
@@ -165,4 +167,18 @@ i{
 }
 .foot-note span{
     color: #c3095f;
+}
+
+/* main content */
+.sections h1{
+    text-align: center;
+}.box{
+    width: 70px;
+    height: 4px;
+    min-width: auto;
+    min-height: auto;
+    text-align: center;
+    margin: 25px auto 100px auto;
+    display: block;
+    background-color: #444649;
 }
