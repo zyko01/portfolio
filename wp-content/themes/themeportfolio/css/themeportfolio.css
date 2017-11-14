@@ -2,7 +2,7 @@ body{
     position: relative;
 }
 .row{
-    height: 500px;
+    height: 800px;
     border: 1px solid #000000;
     position: relative;
     margin-bottom: 20px;
@@ -178,7 +178,12 @@ i{
     min-width: auto;
     min-height: auto;
     text-align: center;
-    margin: 25px auto 100px auto;
+    margin: 25px auto 80px auto;
     display: block;
     background-color: #444649;
+}
+#me{
+    height: 250px;
+    width: 280px;
+    border-radius: 50%;
 }
