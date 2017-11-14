@@ -38,7 +38,7 @@
                 <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about">about</a></li>
                 <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contacts">contacts</a></li>
+                <li><a href="#contact">contact</a></li>
                 </ul>
             </div>
         </div>
