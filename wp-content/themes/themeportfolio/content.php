@@ -40,8 +40,18 @@
     </section> 
 
     <section class="row" id="portfolio" href="portfolio">
-        <h1>Portfolio</h1>
-        <div class="box"></div>
+        <div class="container">
+            <div class="col-xs-12 col-md-12">
+                <h1>Portfolio</h1>
+                <div class="box"></div>
+            </div>
+            <div class="content-wrapper">
+                <div class="col-xs-12 col-md-12">
+                    
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section class="row" id="contact" href="contact">

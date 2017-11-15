@@ -3,7 +3,6 @@ body{
 }
 .row{
     height: 800px;
-    border: 1px solid #000000;
     position: relative;
     margin-bottom: 20px;
     padding-top: 50px;
@@ -182,6 +181,11 @@ i{
     display: block;
     background-color: #444649;
 }
+.content-wrapper{
+    width: 100%;
+    height: auto;
+}
+/* about section */
 #me{
     height: 250px;
     width: 280px;
@@ -224,4 +228,8 @@ i{
 }
 .skills h3{
     text-align: left;
+}
+/* portfolio section */
+#portfolio{
+    background-color: #f6f6f6;
 }
