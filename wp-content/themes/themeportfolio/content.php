@@ -14,8 +14,26 @@
                     and I am eager to learn new and more about designing and developing websites.
                     </span>
                 </div>
-                <div class="col-xs-12 col-md-6">
-                    this is the place where I put my skills and tools I use.
+                <div class="skills col-xs-12 col-md-6">
+                    <div id="tools-wrapper">
+                        <h3>Skills</h3>
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/html_logo.png" alt="html logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/css_logo.png" alt="css logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/php_logo.png" alt="php logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/js_logo.png" alt="js logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/wordpress_logo.png" alt="worpdress logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/bootstrap_logo.png" alt="html logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/codeigniter_logo.png" alt="css logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/laravel_logo.png" alt="php logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/vue_logo.png" alt="js logo">
+                    </div>
+
+                    <div id="tools-wrapper">
+                        <h3>Tools I use</h3>
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/vscode_logo.png" alt="vscode logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/git_logo.png" alt="git logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/photoshop_logo.png" alt="photoshop logo">
+                    </div>
                 </div>
             </div>
         </div> 

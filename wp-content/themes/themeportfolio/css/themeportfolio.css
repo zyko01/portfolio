@@ -192,12 +192,12 @@ i{
 }
 .aboutme{
     padding: 5px;
+    text-align: center;
 }
 .content-wrapper{
     width: 100%;
     height: auto;
     margin: 0;
-    text-align: center;
     line-height: 1.5;
     font-family: "Raleway";
     font-size: 16px;
@@ -206,4 +206,22 @@ i{
 .content-wrapper h3{
     font-weight: bold;
     color: #c3095f;
+    margin-bottom: 20px;
+}
+.skills{
+    padding: 20px;
+}
+#tools-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 0 20px 0 50px;
+}
+.skills img{
+    width: 85px;
+    height: 75px;
+    margin: 0 10px 25px 10px;
+    border-radius: 25%;
+}
+.skills h3{
+    text-align: left;
 }
