@@ -65,7 +65,7 @@ nav a{
 .navbar-inverse{
     border-radius: 0 !important;
     padding: 5px 10px;
-    /* background: transparent !important; */
+    background: transparent !important;
     border-bottom: 5px solid #04C2C9 !important;
     background-color: #1B242F !important;
 }
@@ -170,8 +170,28 @@ i{
 
 /* main content */
 .sections h1{
+    position: relative;
     text-align: center;
-}.box{
+    -webkit-animation: mymove 3s 1; /*Safari 4.0 - 8.0 */
+    animation: mymove 5s 1;
+}
+
+.slideRight {
+    visibility: visible;
+    -webkit-animation: mymove 3s 1; /*Safari 4.0 - 8.0 */
+    animation: mymove 5s 1;  
+}
+@-webkit-keyframes mymove {
+    from {opacity: 0px;}
+    to {opacity: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {opacity: 0px;}
+    to {opacity: 300px;}
+}
+.box{
     width: 70px;
     height: 4px;
     min-width: auto;
@@ -233,3 +253,75 @@ i{
 #portfolio{
     background-color: #f6f6f6;
 }
+.portfolio1 img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  
+  .portfolio1:hover .overlay,
+  .portfolio2:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .5);
+  }
+  .title {
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 120px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+    transition: top 1s ease;
+    opacity:  0;
+  }
+  
+  .portfolio1:hover .title,
+  .portfolio2:hover .title {
+    top: 70px;
+  }
+  
+  .button {
+    position: absolute;
+    width: 200px;
+    left: 150px;
+    top: 130px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    text-align: center;
+    border: 3px solid #ffffff;
+    padding: 12px 48px;
+    z-index: 1;
+    color: #ffffff;
+  }  
+  .portfolio1:hover .button,
+  .portfolio1:hover .title,
+  .portfolio2:hover .button,
+  .portfolio2:hover .title{
+    opacity: 1;
+  }
+.portfolio1 .button:hover,
+.portfolio2 .button:hover{
+    background-color: #c3095f;
+    color: #ffffff;
+    border-color: #c3095f;
+    transition : all 0.3s ease-in-out 0s;
+}
+  
+  

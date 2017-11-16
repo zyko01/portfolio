@@ -13,6 +13,7 @@ function themeportfolio_resources(){
     // custom js
     wp_enqueue_script('customjs', get_template_directory_uri() . '/js/themeportfolio.js', array(), '1.0.0', true);
     wp_enqueue_script('activejs', get_template_directory_uri() . '/js/active.js', array(), '1.0.0', true);
+    wp_enqueue_script('animatejs', get_template_directory_uri() . '/js/animatetext.js', array(), '1.0.0', true);
     // importing bootsrap js
     wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.7', 'all' );
 }

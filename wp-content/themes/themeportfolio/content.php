@@ -2,7 +2,7 @@
     <section class="row" id="about" href="#about">
         <div class="container">
             <div class="col-xs-12 col-md-12">
-                <h1>About</h1>
+                <h1 class="animation-test element-to-hide">About</h1>
                 <div class="box"></div>
             </div>
             <div class="content-wrapper">
@@ -47,9 +47,19 @@
             </div>
             <div class="content-wrapper">
                 <div class="col-xs-12 col-md-12">
-                    
+                    <div class="portfolio1 col-xs-12 col-md-6">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/campuscarpool.png" alt="campus carpool">
+                            <p class="title">Campus Carpool</p>
+                            <div class="overlay"></div>
+                            <div class="button">Learn More</div>
+                    </div>
+                    <div class="portfolio2 col-xs-12 col-md-6">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/ebarangay.png" alt="barangay inventory system">
+                        <p class="title">Barangay Inventory System</p>
+                        <div class="overlay"></div>
+                        <div class="button">Learn More</div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </section>
