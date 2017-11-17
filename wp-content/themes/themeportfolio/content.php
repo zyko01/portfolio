@@ -51,15 +51,53 @@
                         <img src="<?php echo get_bloginfo('template_url') ?> /images/campuscarpool.png" alt="campus carpool">
                             <p class="title">Campus Carpool</p>
                             <div class="overlay"></div>
-                            <div class="button">Learn More</div>
+                            <button type="button" class="button" data-toggle="modal" data-target="#myModal">Learn More</button>
+                            
                     </div>
                     <div class="portfolio2 col-xs-12 col-md-6">
                         <img src="<?php echo get_bloginfo('template_url') ?> /images/ebarangay.png" alt="barangay inventory system">
                         <p class="title">Barangay Inventory System</p>
                         <div class="overlay"></div>
-                        <div class="button">Learn More</div>
+                        <button type="button" class="button" data-toggle="modal" data-target="#myModal1">Learn More</button>               
+                        <!-- Modal -->
+    <div class="modal fade" id="myModal1" role="dialog">
+                            <div class="modal-dialog">
+                            
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Barangay Inventory System</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the modal.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
                     </div>
                 </div>
+                     <!-- Modal -->
+                     <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+                            
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Campus Carpool</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the modal.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>   
+                    </div> 
+   
             </div>
         </div>
     </section>

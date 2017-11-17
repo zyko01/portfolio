@@ -1,5 +1,6 @@
 body{
     position: relative;
+    font-family: "Raleway" !important; 
 }
 .row{
     height: 800px;
@@ -53,6 +54,7 @@ body{
     color: #ffffff !important;
     background-color: #04C2C9;
     border-color: #04C2C9;
+    transition : all 0.5s ease 0s;
 }
 
 /* main navigation */
@@ -201,10 +203,6 @@ i{
     display: block;
     background-color: #444649;
 }
-.content-wrapper{
-    width: 100%;
-    height: auto;
-}
 /* about section */
 #me{
     height: 250px;
@@ -261,7 +259,6 @@ i{
     width: 100%;
     height: 100%;
 }
-
 .overlay {
     position: absolute;
     top: 0;
@@ -280,10 +277,10 @@ i{
   .title {
     position: absolute;
     width: 500px;
-    left: 0;
+    left: 40px;
     top: 120px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 26px;
     text-align: center;
     color: #ffffff;
     z-index: 1;
@@ -299,7 +296,7 @@ i{
   .button {
     position: absolute;
     width: 200px;
-    left: 150px;
+    left: 190px;
     top: 130px;
     text-align: center;
     opacity: 0;
@@ -309,6 +306,7 @@ i{
     padding: 12px 48px;
     z-index: 1;
     color: #ffffff;
+    background: transparent;
   }  
   .portfolio1:hover .button,
   .portfolio1:hover .title,
@@ -322,6 +320,12 @@ i{
     color: #ffffff;
     border-color: #c3095f;
     transition : all 0.3s ease-in-out 0s;
+}
+#myModal{
+    top: 150px;
+}
+#myModal1{
+    top: 150px;
 }
   
   
