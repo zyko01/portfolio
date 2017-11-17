@@ -48,14 +48,14 @@
             <div class="content-wrapper">
                 <div class="col-xs-12 col-md-12">
                     <div class="portfolio1 col-xs-12 col-md-6">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/campuscarpool.png" alt="campus carpool">
+                        <img class="port-img" src="<?php echo get_bloginfo('template_url') ?> /images/campuscarpool.png" alt="campus carpool">
                             <p class="title">Campus Carpool</p>
                             <div class="overlay"></div>
                             <button type="button" class="button" data-toggle="modal" data-target="#myModal">Learn More</button>
                             
                     </div>
                     <div class="portfolio2 col-xs-12 col-md-6">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/ebarangay.png" alt="barangay inventory system">
+                        <img class="port-img" src="<?php echo get_bloginfo('template_url') ?> /images/ebarangay.png" alt="barangay inventory system">
                         <p class="title">Barangay Inventory System</p>
                         <div class="overlay"></div>
                         <button type="button" class="button" data-toggle="modal" data-target="#myModal1">Learn More</button>               
@@ -85,12 +85,69 @@
                             
                             <!-- Modal content-->
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Campus Carpool</h4>
-                                </div>
                                 <div class="modal-body">
-                                    <p>Some text in the modal.</p>
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+
+                                        <div class="item active">
+                                            <img src="<?php echo get_bloginfo('template_url') ?> /images/html_logo.png" alt="Chania">
+                                            <div class="carousel-caption">
+                                            <h3>Chania</h3>
+                                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="<?php echo get_bloginfo('template_url') ?> /images/css_logo.png" alt="Chania">
+                                            <div class="carousel-caption">
+                                            <h3>Chania</h3>
+                                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="item">
+                                            <img src="<?php echo get_bloginfo('template_url') ?> /images/vue_logo.png" alt="Flower">
+                                            <div class="carousel-caption">
+                                            <h3>Flowers</h3>
+                                            <p>Beautiful flowers in Kolymbari, Crete.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="<?php echo get_bloginfo('template_url') ?> /images/wordpress_logo.png" alt="Flower">
+                                            <div class="carousel-caption">
+                                            <h3>Flowers</h3>
+                                            <p>Beautiful flowers in Kolymbari, Crete.</p>
+                                            </div>
+                                        </div>
+                                    
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="port-info">
+                                    <div class="port-title">
+                                        <h2>Campus Carpool</h2>
+                                    </div>
+                                    <p>Campus Carpool is local ridesharing app for the students and employees of University of San Carlos.</p>    
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
