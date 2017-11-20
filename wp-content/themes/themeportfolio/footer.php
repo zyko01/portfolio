@@ -1,7 +1,7 @@
         <div class="site-footer">
             <div class="container-fluid">
                     <div class="col col-xs-12 col-md-12">
-                        <a href="#landingpage" role="button" class="btn btn-lg">
+                        <a href="#landingpage" role="button" class="btn btn-lg scrollToTop">
                             <i class="glyphicon glyphicon-chevron-up"></i>
                             <i class="glyphicon glyphicon-chevron-up"></i>
                             <i class="glyphicon glyphicon-chevron-up"></i>

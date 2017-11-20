@@ -251,6 +251,8 @@ i{
 /* portfolio section */
 #portfolio{
     background-color: #f6f6f6;
+    margin-bottom: 0;
+    height: 600px;
 }
 .portfolio1 .port-img{
     width: 100%;
@@ -355,6 +357,9 @@ i{
 /* contact section */
 #contact{
     background-color: #252934;
+    margin-top: 0 !important;
+    height: 500px;
+    text-align: center;
 }
 #contact h1{
     color: #ffffff;
@@ -383,5 +388,24 @@ i{
 .form-control{
     background-color: #1E242C !important;
     border: none !important;
+    color: #ffffff !important;
+}
+#contact a{
+    width: 250px;
+    height: 80px;
+    padding: 20px 50px 20px 30px;
+    text-align: center;
+    font-size: 26px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    margin-top: 20px;
+    background-color: #1E242C;    
+}
+#contact a:hover{
+    transition : all 0.3s ease-in-out 0s;
+    background-color: #04C2C9;
+    border: 3px solid #04C2C9;
+}
+#contact h2{
     color: #ffffff !important;
 }
