@@ -107,7 +107,7 @@ nav img{
     width: 100%;
     background-color: #1B242F;
     position: relative;
-    margin-top: 50px;
+    margin-top: 0;
 }
 .row-footer{
     width: 100%;
@@ -349,4 +349,39 @@ i{
     border-bottom: 3px solid #e3e3e3;
     margin-bottom: 8px;
     text-align: left;
+}
+
+
+/* contact section */
+#contact{
+    background-color: #252934;
+}
+#contact h1{
+    color: #ffffff;
+}
+#contact .box{
+    background-color: #ffffff;
+}
+
+.col-button button{
+    text-align: center;
+    width: 120px;
+    height: 60px;
+    background-color: #1E242C;
+    border: 2px solid #ffffff;
+    float: right;
+}
+.col-button button:hover{
+    background-color: #04C2C9;
+    color: #ffffff;
+    transition : all 0.3s ease-in-out 0s;
+}
+.well{
+    background-color: #252934 !important;
+    border: none !important;
+}
+.form-control{
+    background-color: #1E242C !important;
+    border: none !important;
+    color: #ffffff !important;
 }

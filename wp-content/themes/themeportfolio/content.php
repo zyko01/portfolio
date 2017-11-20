@@ -235,8 +235,51 @@
         </div> <!-- end of container -->
     </section>
 
+    <!-- Contact Section -->
     <section class="row" id="contact" href="contact">
-        <h1>Contact</h1>
-        <div class="box"></div>
+        <div class="container">
+            <div class="col-xs-12 col-md-12">
+                <h1>Contact</h1>
+                <div class="box"></div>
+            </div>
+            <div class="content-wrapper">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" action="" method="post">
+                            <fieldset>
+                
+                        <!-- Name input-->
+                        <div class="form-group">
+                        <div class="col-md-8 col-md-offset-2">
+                            <input id="name" name="name" type="text" placeholder="Name" class="form-control">
+                        </div>
+                        </div>
+                
+                        <!-- Email input-->
+                        <div class="form-group">
+                        <div class="col-md-8 col-md-offset-2">
+                            <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                        </div>
+                        </div>
+                
+                        <!-- Message body -->
+                        <div class="form-group">
+                        <div class="col-md-8 col-md-offset-2">
+                            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                        </div>
+                        </div>
+
+                        <!-- Form actions -->
+                     <div class="form-group">
+                        <div class="col-button col-md-8 col-md-offset-2">
+                           <button type="submit" class="btn btn-primary btn-md ">Submit</button>
+                        </div>
+                        </div>
+                    </fieldset>
+                    </form>
+                    </div>
+                </div>
+            </div> <!-- end of content-wrapper -->
+        </div> <!-- end of container -->
     </section>
 </div> 
