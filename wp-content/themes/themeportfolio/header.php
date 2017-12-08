@@ -10,7 +10,7 @@
 
     <section class="row" id="landingpage" href="#">
         <div class="container">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
                 <h1>Hi, im <span>Mark Christian Biglang-awa</span>.</h1>
                 <h1>im a front-end developer.</h1>
                 <a href="#about" class="btn btn-home" id="change-icon">
@@ -30,7 +30,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
              </button>
-            <img src="<?php echo get_bloginfo('template_url') ?> /images/logo.png" alt="logo">
+            <img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png" alt="logo">
         </div>
         
         <div>

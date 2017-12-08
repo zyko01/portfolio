@@ -1,4 +1,4 @@
-        <div class="site-footer">
+        <div class="col-xs-12 site-footer">
             <div class="container-fluid">
                     <div class="col col-xs-12 col-md-12">
                         <a href="#landingpage" role="button" class="btn btn-lg scrollToTop">
@@ -8,7 +8,7 @@
                         </a> 
                     </div>
 
-                    <div class="social-links">
+                    <div class="col-xs-12 social-links">
                         <a class="btn btn-social-icon btn-youtube" href="https://www.youtube.com/channel/UCFjg6jgD3-5b23YgoN3ZKgg?view_as=subscriber">
                             <span class="fa fa-youtube"></span> 
                         </a>

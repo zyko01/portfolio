@@ -17,7 +17,7 @@
                 <div class="skills col-xs-12 col-md-6">
                     <div id="tools-wrapper">
                         <h3>Skills</h3>
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/html_logo.png" alt="html logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?> /images/HTML_logo.png" alt="html logo">
                         <img src="<?php echo get_bloginfo('template_url') ?> /images/css_logo.png" alt="css logo">
                         <img src="<?php echo get_bloginfo('template_url') ?> /images/php_logo.png" alt="php logo">
                         <img src="<?php echo get_bloginfo('template_url') ?> /images/js_logo.png" alt="js logo">
