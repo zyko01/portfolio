@@ -40,16 +40,17 @@
     </section> 
 
     <section class="row" id="portfolio" href="portfolio">
-        <div class="container">
+        <div class="container-full">
             <div class="col-xs-12 col-md-12">
                 <h1>Portfolio</h1>
                 <div class="box"></div>
             </div>
             <div class="content-wrapper">
-                <div class="col-xs-12 col-md-12">
+                <div class="col-xs-12 col-md-12 portfolio-wrapper">
                     <div class="portfolio1 col-xs-12 col-md-6">
                         <img class="port-img" src="<?php echo get_bloginfo('template_url') ?> /images/campuscarpool.png" alt="campus carpool">
                             <p class="title">Campus Carpool</p>
+                            <p class="small-title">Campus Carpool</p>
                             <div class="overlay"></div>
                             <button type="button" class="button" data-toggle="modal" data-target="#myModal">Learn More</button>    
                     </div>
@@ -57,6 +58,7 @@
                     <div class="portfolio2 col-xs-12 col-md-6">
                         <img class="port-img" src="<?php echo get_bloginfo('template_url') ?> /images/ebarangay.png" alt="barangay inventory system">
                         <p class="title">Barangay Inventory System</p>
+                        <p class="small-title">Barangay Inventory System</p>
                         <div class="overlay"></div>
                         <button type="button" class="button" data-toggle="modal" data-target="#myModal1">Learn More</button>               
                         

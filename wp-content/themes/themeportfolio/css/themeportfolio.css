@@ -258,7 +258,7 @@ i{
     width: 100%;
     height: 100%;
 }
-.portfolio2 img{
+.portfolio2 .port-img{
     width: 100%;
     height: 100%;
 }
@@ -352,7 +352,15 @@ i{
     margin-bottom: 8px;
     text-align: left;
 }
-
+.small-title{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+    color: #000000;
+    position: relative;
+    top: -100px;
+}
 
 /* contact section */
 #contact{
@@ -428,4 +436,132 @@ i{
     .foot-note{
         font-size: 10px;
     }
+    /* ABOUT SECTIO RESPONSIVE */
+    .skills img {
+        width: 43px;
+        height: auto;
+        margin: 0 5px 25px 5px;
+        border-radius: 25%;
+    }
+
+    #tools-wrapper {
+        width: 100%;
+        height: auto;
+        padding: 0 20px 0 10px;
+    }
+
+    #me {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: center;
+        min-height: auto;
+        min-width: auto;
+    }
+
+    /* PORTFOLIO SECTION RESPONSIVE */
+    .portfolio-wrapper{
+        padding: 0 5px !important;
+    }
+    .portfolio1{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 8px;
+        padding: 0 !important;
+    }
+    .portfolio2{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 8px;
+        padding: 0 !important;
+    }
+    .button {
+        position: absolute;
+        width: 100px;
+        left: 90px;
+        top: 90px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity .35s ease;
+        text-align: center;
+        border: 1px solid #ffffff;
+        padding: 5px 20px;
+        z-index: 1;
+        color: #ffffff;
+        background: transparent;
+        font-size: 11px;
+    }
+    
+    .port-img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .title {
+        position: absolute;
+        width: 200px;
+        left: 40px;
+        top: 90px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        color: #ffffff;
+        z-index: 1;
+        transition: top 2s ease;
+        opacity: 0;
+    }
+    .small-title{
+        display: block;
+    }
+    .overlay{
+        height: 80%;
+    } 
+
+    /* CONTACT SECTION RESPONSIVE */
+
+    #contact{
+        background-color: #252934;
+        margin-top: 0 !important;
+        height: 550px;
+        text-align: center;
+        margin-bottom: 0; 
+    }
+    #contact a {
+        height: 80px;
+        width: 190px;
+        padding: 20px 20px 20px 23px;
+        text-align: center;
+        font-size: 20px;
+        color: #ffffff;
+        border: 3px solid #ffffff;
+        margin-top: 20px;
+        background-color: #1E242C;
+        margin-right: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 6px 10px;
+    }
+
+    .social-links{
+        padding: 0;
+    }
+    
+    .social-links a {
+        margin: 0 1px;
+        text-align: center;
+        font-size: 11px;
+    }
+    
+    .social-links .btn {
+        background-color: #262F38;
+        color: #ffffff;
+        border-radius: 0;
+        width: 30px;
+        height: auto;
+        padding-left: 10px;
+    }
+ 
 }
