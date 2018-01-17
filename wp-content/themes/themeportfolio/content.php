@@ -7,7 +7,7 @@
             </div>
             <div class="content-wrapper">
                 <div class="aboutme col-xs-12 col-md-6">
-                    <img id="me" src="<?php echo get_bloginfo('template_url') ?> /images/aboutme.jpg" alt="aboutme">
+                    <img id="me" src="<?php echo get_bloginfo('template_url') ?>/images/aboutme.jpg" alt="aboutme">
                     <h3>Who is Mark?</h3>
                     <span>I'm a fresh graduate from the University of San Carlos with a degree of Bachelor of Science
                     in Informattion Communication Technology. I have a serious passion for designing and developing websites
@@ -17,22 +17,22 @@
                 <div class="skills col-xs-12 col-md-6">
                     <div id="tools-wrapper">
                         <h3>Skills</h3>
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/HTML_logo.png" alt="html logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/css_logo.png" alt="css logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/php_logo.png" alt="php logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/js_logo.png" alt="js logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/wordpress_logo.png" alt="worpdress logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/bootstrap_logo.png" alt="html logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/codeigniter_logo.png" alt="css logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/laravel_logo.png" alt="php logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/vue_logo.png" alt="js logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/HTML_Logo.png" alt="html logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/css_logo.png" alt="css logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/php_logo.png" alt="php logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/js_logo.png" alt="js logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/wordpress_logo.png" alt="worpdress logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/bootstrap_logo.png" alt="html logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/codeIgniter_logo.png" alt="css logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/laravel_logo.png" alt="php logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/vue_logo.png" alt="js logo">
                     </div>
 
                     <div id="tools-wrapper">
                         <h3>Tools I use</h3>
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/vscode_logo.png" alt="vscode logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/git_logo.png" alt="git logo">
-                        <img src="<?php echo get_bloginfo('template_url') ?> /images/photoshop_logo.png" alt="photoshop logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/vscode_logo.png" alt="vscode logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/git_logo.png" alt="git logo">
+                        <img src="<?php echo get_bloginfo('template_url') ?>/images/photoshop_logo.png" alt="photoshop logo">
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
             <div class="content-wrapper">
                 <div class="col-xs-12 col-md-12 portfolio-wrapper">
                     <div class="portfolio1 col-xs-12 col-md-6">
-                        <img class="port-img" src="<?php echo get_bloginfo('template_url') ?> /images/campuscarpool.png" alt="campus carpool">
+                        <img class="port-img" src="<?php echo get_bloginfo(template_url) ?>/images/campuscarpool.PNG" alt="campus carpool">
                             <p class="title">Campus Carpool</p>
                             <p class="small-title">Campus Carpool</p>
                             <div class="overlay"></div>
@@ -56,7 +56,7 @@
                     </div>
                    
                     <div class="portfolio2 col-xs-12 col-md-6">
-                        <img class="port-img" src="<?php echo get_bloginfo('template_url') ?> /images/ebarangay.png" alt="barangay inventory system">
+                        <img class="port-img" src="<?php echo get_bloginfo(template_url) ?>/images/ebarangay.PNG" alt="barangay inventory system">
                         <p class="title">Barangay Inventory System</p>
                         <p class="small-title">Barangay Inventory System</p>
                         <div class="overlay"></div>
@@ -82,7 +82,7 @@
                                     <div class="carousel-inner" role="listbox">
 
                                         <div class="item active">
-                                            <img src="<?php echo get_bloginfo('template_url') ?> /images/borrow-request.png" alt="borrow-request">
+                                            <img src="<?php echo get_bloginfo(template_url) ?>/images/borrow-request.PNG" alt="borrow-request">
                                             <div class="carousel-caption">
                                                 <h3></h3>
                                                 <p></p>
@@ -90,7 +90,7 @@
                                         </div>
 
                                         <div class="item">
-                                            <img src="<?php echo get_bloginfo('template_url') ?> /images/item-listing.png" alt="Chania">
+                                            <img src="<?php echo get_bloginfo(template_url) ?>/images/item-listing.PNG" alt="Chania">
                                             <div class="carousel-caption">
                                                 <h3></h3>
                                                 <p></p>
@@ -98,7 +98,7 @@
                                         </div>
                                  
                                         <div class="item">
-                                            <img src="<?php echo get_bloginfo('template_url') ?> /images/new-item.png" alt="Flower">
+                                            <img src="<?php echo get_bloginfo(template_url) ?>/images/new-item.PNG" alt="Flower">
                                             <div class="carousel-caption">
                                                 <h3></h3>
                                                 <p></p>
@@ -106,7 +106,7 @@
                                         </div>
 
                                         <div class="item">
-                                            <img src="<?php echo get_bloginfo('template_url') ?> /images/user-listing.png" alt="Flower">
+                                            <img src="<?php echo get_bloginfo(template_url) ?>/images/user-listing.PNG" alt="Flower">
                                             <div class="carousel-caption">
                                                 <h3></h3>
                                                 <p></p>
@@ -166,7 +166,7 @@
                                         <div class="carousel-inner" role="listbox">
 
                                             <div class="item active">
-                                                <img src="<?php echo get_bloginfo('template_url') ?> /images/post-ride.png" alt="Chania">
+                                                <img src="<?php echo get_bloginfo(template_url) ?>/images/post-ride.PNG" alt="Chania">
                                                 <div class="carousel-caption">
                                                     <h3></h3>
                                                     <p></p>
@@ -174,7 +174,7 @@
                                             </div>
 
                                             <div class="item">
-                                                <img src="<?php echo get_bloginfo('template_url') ?> /images/browse-route.png" alt="Chania">
+                                                <img src="<?php echo get_bloginfo(template_url) ?>/images/browse-route.PNG" alt="Chania">
                                                 <div class="carousel-caption">
                                                     <h3></h3>
                                                     <p></p>
@@ -182,7 +182,7 @@
                                             </div>
                                         
                                             <div class="item">
-                                                <img src="<?php echo get_bloginfo('template_url') ?> /images/request-ride.png" alt="Flower">
+                                                <img src="<?php echo get_bloginfo(template_url) ?>/images/request-ride.PNG" alt="Flower">
                                                 <div class="carousel-caption">
                                                     <h3></h3>
                                                     <p></p>
@@ -190,7 +190,7 @@
                                             </div>
 
                                             <div class="item">
-                                                <img src="<?php echo get_bloginfo('template_url') ?> /images/private-message.png" alt="Flower">
+                                                <img src="<?php echo get_bloginfo(template_url) ?>/images/private-message.PNG" alt="Flower">
                                                 <div class="carousel-caption">
                                                     <h3></h3>
                                                     <p></p>

@@ -1,6 +1,8 @@
-body{
+body, html{
     position: relative;
-    font-family: "Raleway" !important; 
+    font-family: "Raleway" !important;
+    height: 100%;
+    margin: 0; 
 }
 .row{
     height: 800px;
@@ -12,10 +14,11 @@ body{
 #landingpage{
     width: 100%;
     margin: 0 auto;
-    height: 620px;
+    height: 100%;
     background-image: url('../images/giphys.gif');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
     padding-top: 150px;
     text-align: center;
     color: #ffffff;
@@ -252,7 +255,8 @@ i{
 #portfolio{
     background-color: #f6f6f6;
     margin-bottom: 0;
-    height: 600px;
+    height: auto;
+    padding-bottom: 70px;
 }
 .portfolio1 .port-img{
     width: 100%;
@@ -421,7 +425,7 @@ i{
 
 /* Responsive Styling */
 
-@media only screen and (min-width:150px) and (max-width:650px) {
+@media only screen and (min-width:150px) and (max-width:700px) {
     .row{
         height: auto;
     }
@@ -436,7 +440,7 @@ i{
     .foot-note{
         font-size: 10px;
     }
-    /* ABOUT SECTIO RESPONSIVE */
+    /* ABOUT SECTION RESPONSIVE */
     .skills img {
         width: 43px;
         height: auto;
@@ -460,6 +464,9 @@ i{
     }
 
     /* PORTFOLIO SECTION RESPONSIVE */
+    #portfolio{
+        height: auto;
+    }
     .portfolio-wrapper{
         padding: 0 5px !important;
     }
@@ -478,7 +485,7 @@ i{
     .button {
         position: absolute;
         width: 100px;
-        left: 90px;
+        left: 110px;
         top: 90px;
         text-align: center;
         opacity: 0;
@@ -501,8 +508,8 @@ i{
     .title {
         position: absolute;
         width: 200px;
-        left: 40px;
-        top: 90px;
+        /* left: 60px;
+        top: 90px; */
         font-weight: bold;
         font-size: 14px;
         text-align: center;
@@ -515,7 +522,7 @@ i{
         display: block;
     }
     .overlay{
-        height: 80%;
+        height: 90%;
     } 
 
     /* CONTACT SECTION RESPONSIVE */
@@ -523,7 +530,7 @@ i{
     #contact{
         background-color: #252934;
         margin-top: 0 !important;
-        height: 550px;
+        height: 600px;
         text-align: center;
         margin-bottom: 0; 
     }
