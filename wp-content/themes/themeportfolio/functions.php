@@ -3,6 +3,8 @@
 function themeportfolio_resources(){
     // importing stylesheet
     wp_enqueue_style('themeportfolio', get_template_directory_uri() . '/css/themeportfolio.css', array(), '1.0.0', 'all' );
+    // importing animation css
+    wp_enqueue_style('animation', get_template_directory_uri() . '/css/animate.css', array(), '1.0.0', 'all' );
     // importing bootstrap css
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.7', 'all' );
     // importing font awesome
@@ -15,6 +17,7 @@ function themeportfolio_resources(){
     wp_enqueue_script('activejs', get_template_directory_uri() . '/js/active.js', array(), '1.0.0', true);
     wp_enqueue_script('animatejs', get_template_directory_uri() . '/js/animatetext.js', array(), '1.0.0', true);
     wp_enqueue_script('smoothscroll', get_template_directory_uri() . '/js/smooth.js', array(), '1.0.0', true);
+    wp_enqueue_script('scroll', get_template_directory_uri() . '/js/scroll.js', array(), '1.0.0', true);
     // importing bootsrap js
     wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.7', 'all' );
 }
