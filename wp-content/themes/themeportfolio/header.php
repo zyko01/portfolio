@@ -11,9 +11,9 @@
     <section class="row" id="landingpage" href="#">
         <div class="container">
             <div class="col-xs-12 col-md-8 col-md-offset-2">
-                <h1>Hi, im <span>Mark Christian Biglang-awa</span>.</h1>
-                <h1>im a front-end developer.</h1>
-                <a href="#about" class="btn btn-home" id="change-icon">
+                <h1 class="seq1 animate-pop-in">Hi, im <span>Mark Christian Biglang-awa</span>.</h1>
+                <h1 class="seq2 animate-pop-in">im a Web Developer and a Designer.</h1>
+                <a href="#about" class="btn btn-home animate-pop-in" id="change-icon">
                         <i class="fa fa-arrow-right"></i>
                         <i class="fa fa-arrow-down"></i>
                         <h4>more about me</h4>
@@ -30,7 +30,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
              </button>
-            <img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png" alt="logo">
+            <img src="<?php echo get_bloginfo('template_url') ?>/images/mark_logo1.png" alt="logo">
         </div>
         
         <div>

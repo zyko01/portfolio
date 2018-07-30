@@ -1,7 +1,7 @@
 <div class="sections">
     <section class="row" id="about" href="#about">
         <div class="container">
-            <div class="col-xs-12 col-md-12">
+            <div class="col-xs-12 col-md-12" id="abouttitle">
                 <h1 class="animation-test element-to-hide">About</h1>
                 <div class="box"></div>
             </div>
@@ -43,7 +43,7 @@
 
     <section class="row" id="portfolio" href="portfolio">
         <div class="container-full">
-            <div class="col-xs-12 col-md-12">
+            <div class="col-xs-12 col-md-12" id="portfoliotitle">
                 <h1>Portfolio</h1>
                 <div class="box"></div>
             </div>
@@ -60,10 +60,11 @@
                     <div class="portfolio2 col-xs-12 col-md-6">
                         <img class="port-img" src="<?php echo get_bloginfo(template_url) ?>/images/ebarangay.PNG" alt="barangay inventory system">
                         <p class="title">Barangay Inventory System</p>
-                        <p class="small-title">Barangay Inventory System</p>
-                        <div class="overlay"></div>
-                        <button type="button" class="button" data-toggle="modal" data-target="#myModal1">Learn More</button>               
-                        
+                        <div class="transholder">
+                            <p class="small-title">Barangay Inventory System</p>
+                            <div class="overlay"></div>
+                            <button type="button" class="button" data-toggle="modal" data-target="#myModal1">Learn More</button>               
+                        </div>
                         <!-- Modal -->
                         <div class="modal fade" id="myModal1" role="dialog">
                         <div class="modal-dialog">
@@ -233,7 +234,107 @@
                             </div>  <!-- end of modal content --> 
                         </div> <!-- end of modal dialog -->
                         </div><!-- end of modal fade -->
+                        
+                    <!--PORTFOLIO 3 SALON INVENTORY -->
+                        <div class="portfolio3 col-xs-12 col-md-6 col-md-offset-3" style="margin-top: 20px;">
+                            <img class="port-img" src="<?php echo get_bloginfo(template_url) ?>/images/salon1.PNG" alt="salon inventory">
+                                <p class="title">Salon Inventory</p>
+                                <p class="small-title">Salon Inventory</p>
+                                <div class="overlay"></div>
+                                <button type="button" class="button" data-toggle="modal" data-target="#myModal2">Learn More</button>    
+                        </div>
 
+                        <!-- Modal Salon Inventory -->
+                    <div class="modal fade" id="myModal2" role="dialog">
+                        <div class="modal-dialog">
+                            
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel3" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel3" data-slide-to="2"></li>
+                                            <li data-target="#myCarousel3" data-slide-to="3"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+
+                                            <div class="item active">
+                                                <img src="<?php echo get_bloginfo(template_url) ?>/images/salon1.PNG" alt="Chania">
+                                                <div class="carousel-caption">
+                                                    <h3></h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="<?php echo get_bloginfo(template_url) ?>/images/salon2.PNG" alt="Chania">
+                                                <div class="carousel-caption">
+                                                    <h3></h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="item">
+                                                <img src="<?php echo get_bloginfo(template_url) ?>/images/salon3.PNG" alt="Flower">
+                                                <div class="carousel-caption">
+                                                    <h3></h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="<?php echo get_bloginfo(template_url) ?>/images/salon4.PNG" alt="Flower">
+                                                <div class="carousel-caption">
+                                                    <h3></h3>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                    
+                                        </div> <!-- end of carousel inner -->
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                        </a>
+                                    </div> <!-- end id mycarousel -->
+                                </div> <!-- end modal body -->
+                                
+                                <div class="port-info">
+                                    <div class="port-title">
+                                        <h2>Salon Inventory</h2>
+                                    </div>
+                                    <p>Salon Inventory is created for the beyoutylane salon.</p>   
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>  <!-- end of modal content --> 
+                        </div> <!-- end of modal dialog -->
+                        </div><!-- end of modal fade -->
+                <!-- LOGO DESIGN -->
+                <div class="logos col-xs-12 col-md-12">
+                    <h2>Beyouty Lane Logo Design</h2>
+                    <div class="col-xs-3 col-md-4">
+                        <a href="#" class="pop"><img src="<?php echo get_bloginfo(template_url) ?>/images/capture123.PNG" alt="logo1"></a>
+                    </div>
+
+                    <div class="col-xs-3 col-md-4">
+                        <a href="#" class="pop"><img src="<?php echo get_bloginfo(template_url) ?>/images/salonlogo2final.PNG" alt="logo1"></a>
+                    </div>
+                    <div class="col-xs-3 col-md-4">
+                        <a href="#" class="pop"><img src="<?php echo get_bloginfo(template_url) ?>/images/salon logo4-customize2.PNG" alt="logo1"></a>
+                    </div>
+                </div>  
                 </div> <!-- end of col-xs-12 col-md-12 -->
             </div><!-- end of content-wrapper -->
         </div> <!-- end of container -->
@@ -242,14 +343,14 @@
     <!-- Contact Section -->
     <section class="row" id="contact" href="contact">
         <div class="container">
-            <div class="col-xs-12 col-md-12">
+            <div class="col-xs-12 col-md-12" id="contacttitle">
                 <h1>Get in Touch</h1>
                 <div class="box"></div>
             </div>
             <div class="content-wrapper">
                 <div class="col-xs-12 col-md-6 col-md-offset-3">
-                    <h2>Interested to work together?</h2>
-                    <p>send me a message through my social media or send me an email below.</p>
+                    <h2 id="contacth2">Interested to work together?</h2>
+                    <p id="contactp">send me a message through my social media or send me an email below.</p>
                         <a class="btn send-email" href="mailto:mark.zyko01@gmail.com">
                             <i class="fa fa-send">  Send an email</i>
                         </a>  
