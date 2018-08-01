@@ -323,15 +323,15 @@
                         </div><!-- end of modal fade -->
                 <!-- LOGO DESIGN -->
                 <div class="logos col-xs-12 col-md-12">
-                    <h2>Beyouty Lane Logo Design</h2>
-                    <div class="col-xs-12 col-md-4">
+                    <h2 id="bltext">Beyouty Lane Logo Design</h2>
+                    <div class="images1 col-xs-12 col-md-4">
                         <a href="<?php echo get_bloginfo(template_url) ?>/images/bl1.png" data-lightbox="gallery"><img src="<?php echo get_bloginfo(template_url) ?>/images/bl1.png" alt="logo1"></a>
                     </div>
 
-                    <div class="col-xs-12 col-md-4">
+                    <div class="images2 col-xs-12 col-md-4">
                         <a href="<?php echo get_bloginfo(template_url) ?>/images/bl2.png" data-lightbox="gallery"><img src="<?php echo get_bloginfo(template_url) ?>/images/bl2.png" alt="logo1"></a>
                     </div>
-                    <div class="col-xs-12 col-md-4">
+                    <div class="images3 col-xs-12 col-md-4">
                         <a href="<?php echo get_bloginfo(template_url) ?>/images/bl3.PNG" data-lightbox="gallery"><img src="<?php echo get_bloginfo(template_url) ?>/images/bl3.PNG" alt="logo1"></a>
                     </div>
 
@@ -362,7 +362,10 @@
                         <!-- <a class="btn send-email" href="mailto:mark.zyko01@gmail.com">
                             <i class="fa fa-send">  Send an email</i>
                         </a>   -->
-                        <?php echo do_shortcode('[contact-form-7 id="55" title="Contact form 1"]') ?>
+                        <div class="contact-form">
+                            <?php echo do_shortcode('[contact-form-7 id="55" title="Contact form 1"]') ?>
+                        </div>
+                        
                 </div>
             </div> <!-- end of content-wrapper -->
         </div> <!-- end of container -->

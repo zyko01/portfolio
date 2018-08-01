@@ -26,20 +26,32 @@ $(document).ready(function(){
             $('.portfolio2').addClass('animated slideInRight');
           
         }
-        if((positiontop > 1500) && (positiontop < 1750 )){
+        if((positiontop > 1490) && (positiontop < 1750 )){
             $('.portfolio3').addClass('animated slideInLeft');
         }
 
-        if((positiontop > 1868) && (positiontop < 2000)){
+        if((positiontop > 1867) && (positiontop < 2000 )){
+            $('#bltext').addClass('animated slideInLeft');
+        }
+
+        if((positiontop > 1890) && (positiontop < 2100 )){
+            $('.images1').addClass('animated slideInLeft');
+            $('.images2').addClass('animated slideInDown');
+            $('.images3').addClass('animated slideInRight');
+        }
+
+        if((positiontop > 2290) && (positiontop < 2450)){
             $('#contacttitle').addClass('animated slideInLeft');
             $('.box').addClass('animated slideInLeft');
         }
-        if((positiontop > 2000) && (positiontop < 2200 )){
+        if((positiontop > 2467) && (positiontop < 2650 )){
             $('#contacth2').addClass('animated slideInLeft');
             $('#contactp').addClass('animated slideInLeft');
         }
-        if((positiontop > 2114) && (positiontop < 2300 )){
-            $('.send-email').addClass('animated slideInLeft');
+
+        if((positiontop > 2580) && (positiontop < 2650 )){
+            $('.contact-form').addClass('animated slideInLeft');
         }
+
     });
 });

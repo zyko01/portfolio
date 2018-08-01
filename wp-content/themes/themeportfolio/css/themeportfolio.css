@@ -455,9 +455,12 @@ i{
     height: 300px;
     cursor: pointer;
     transition: 0.3s;
+    opacity: 0.7;
+    filter:alpha(opacity=40);
 }
 .logos img:hover{
-    opacity: 0.7;
+    opacity: 1.0;
+    filter:alpha(opacity=100);
 }
 
 
@@ -556,6 +559,11 @@ i{
     padding: 10px;
     width: 460px;
 }
+.wpcf7 input[type=text],
+.wpcf7 input[type=email],
+.wpcf7-textarea:focus{
+    color: #ffffff;
+}
 /* Change input field styles when click into (on focus) */
 
 .wpcf7 input[type=text]:focus, .wpcf7 input[type=email]:focus, .wpcf7 input[type=tel]:focus {
@@ -564,6 +572,8 @@ i{
  .wpcf7 input[type=text]:active, .wpcf7 input[type=email]:active, .wpcf7 input[type=tel]:active {
     background-color: #1B242F;
  }
+
+
 /* Responsive Styling */
 
 @media only screen and (min-width:150px) and (max-width:700px) {
@@ -632,7 +642,7 @@ i{
     .button {
         position: absolute;
         width: 150px;
-        left: 170px;
+        left: 120px;
         top: 120px;
         text-align: center;
         opacity: 0;
@@ -733,6 +743,7 @@ i{
         background-color: #1B242F;
         border: none;
         padding: 10px;
+        color: #ffffff;
     }
     .wpcf7-textarea{
         background-color: #1B242F;
