@@ -324,15 +324,23 @@
                 <!-- LOGO DESIGN -->
                 <div class="logos col-xs-12 col-md-12">
                     <h2>Beyouty Lane Logo Design</h2>
-                    <div class="col-xs-3 col-md-4">
-                        <a href="#" class="pop"><img src="<?php echo get_bloginfo(template_url) ?>/images/capture123.PNG" alt="logo1"></a>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="<?php echo get_bloginfo(template_url) ?>/images/bl1.png" data-lightbox="gallery"><img src="<?php echo get_bloginfo(template_url) ?>/images/bl1.png" alt="logo1"></a>
                     </div>
 
-                    <div class="col-xs-3 col-md-4">
-                        <a href="#" class="pop"><img src="<?php echo get_bloginfo(template_url) ?>/images/salonlogo2final.PNG" alt="logo1"></a>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="<?php echo get_bloginfo(template_url) ?>/images/bl2.png" data-lightbox="gallery"><img src="<?php echo get_bloginfo(template_url) ?>/images/bl2.png" alt="logo1"></a>
                     </div>
-                    <div class="col-xs-3 col-md-4">
-                        <a href="#" class="pop"><img src="<?php echo get_bloginfo(template_url) ?>/images/salon logo4-customize2.PNG" alt="logo1"></a>
+                    <div class="col-xs-12 col-md-4">
+                        <a href="<?php echo get_bloginfo(template_url) ?>/images/bl3.PNG" data-lightbox="gallery"><img src="<?php echo get_bloginfo(template_url) ?>/images/bl3.PNG" alt="logo1"></a>
+                    </div>
+
+                    <div class="modal fade" id="imagemodal" role="dialog">
+                        <div class="modal-dialog" data-dismiss="modal">
+                            <div class="modal-content">
+                                <img src="" class="imagepreview">
+                            </div>
+                        </div>
                     </div>
                 </div>  
                 </div> <!-- end of col-xs-12 col-md-12 -->
@@ -351,9 +359,10 @@
                 <div class="col-xs-12 col-md-6 col-md-offset-3">
                     <h2 id="contacth2">Interested to work together?</h2>
                     <p id="contactp">send me a message through my social media or send me an email below.</p>
-                        <a class="btn send-email" href="mailto:mark.zyko01@gmail.com">
+                        <!-- <a class="btn send-email" href="mailto:mark.zyko01@gmail.com">
                             <i class="fa fa-send">  Send an email</i>
-                        </a>  
+                        </a>   -->
+                        <?php echo do_shortcode('[contact-form-7 id="55" title="Contact form 1"]') ?>
                 </div>
             </div> <!-- end of content-wrapper -->
         </div> <!-- end of container -->

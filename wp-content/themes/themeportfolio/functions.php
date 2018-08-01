@@ -7,6 +7,8 @@ function themeportfolio_resources(){
     wp_enqueue_style('animation', get_template_directory_uri() . '/css/animate.css', array(), '1.0.0', 'all' );
     // importing bootstrap css
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.7', 'all' );
+    // importing lightbox
+    wp_enqueue_style('lightboxcss', get_template_directory_uri() . '/css/lightbox.css', array(), '3.3.7', 'all' );
     // importing font awesome
     wp_enqueue_style('fonts', get_template_directory_uri() . '/fonts/font-awesome.min.css', array(), '4.0.1', 'all');
     // wp_enqueue_style('fonts', get_template_directory_uri() . '/fonts/fontawesome-webfont.ttf', array(), '4.0.1', 'all');
@@ -18,7 +20,7 @@ function themeportfolio_resources(){
     wp_enqueue_script('animatejs', get_template_directory_uri() . '/js/animatetext.js', array(), '1.0.0', true);
     wp_enqueue_script('smoothscroll', get_template_directory_uri() . '/js/smooth.js', array(), '1.0.0', true);
     wp_enqueue_script('scroll', get_template_directory_uri() . '/js/scroll.js', array(), '1.0.0', true);
-    wp_enqueue_script('galleryjs', get_template_directory_uri() . '/js/gallery.js', array(), '1.0.0', true);
+    wp_enqueue_script('lightboxjs', get_template_directory_uri() . '/js/lightbox.js', array(), '1.0.0', true);
     // importing bootsrap js
     wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.7', 'all' );
 }
